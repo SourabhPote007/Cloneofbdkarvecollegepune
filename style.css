@@ -16,9 +16,80 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 999;
 }
 
 .About_Us li
 {
     border-bottom: 1px solid #ccc;
 }
+
+.Carousels{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow: hidden;
+}
+.carousel
+{
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 400px);
+    display: flex;
+}
+.carousel img
+{
+    object-fit: contain;
+    height: 100%;
+}
+.Slider-Content 
+{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.slider-pretitle
+{
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.slider-title
+{
+    font-weight: bold;
+    margin: 40px 0;
+    font-size: 40px;
+    color: #ccc;
+}
+.slider-btn
+{
+    margin: 200px 0;
+    bottom: 0;
+}
+marquee
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutarea
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+.about__image img
+{
+    width: 400px;
+    padding: 30px;
+}
+
+.about__title
+{
+    font-weight: bolder;
+    margin: 70px;
+    font-size: 3.1rem;
+}
+
