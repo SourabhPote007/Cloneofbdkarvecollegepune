@@ -4,3 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.Website-Logo
+{
+    width: 250px;
+}
+
+.About_Us li
+{
+    border-bottom: 1px solid #ccc;
+}
